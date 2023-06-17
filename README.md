@@ -1,4 +1,14 @@
-## Test Backend
+# Test Backend
+
+## Required installations
+```
+-composer v2.0.12
+-php v7.3.28
+-laravel v10.1.0 
+```
+
+## Installation instructions
+
 Execute the following commands:
 
 1. Clone the repository 
@@ -21,8 +31,10 @@ Execute the following commands:
 ```
 - php artisan key:generate
 ```
-6. Run the project
+6. Run the project for a dev server
 ```
 - php artisan serve
 ```
+7. Navigate to `http://localhost:8000/`
+
 Done!
