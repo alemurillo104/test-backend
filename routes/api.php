@@ -20,4 +20,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('/problem-2/index', [QuestionTwoController::class, 'index'])->name('question.two.index');
+Route::post('/problem-2', [QuestionTwoController::class, 'index'])->name('question.two.index');
