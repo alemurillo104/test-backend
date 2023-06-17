@@ -1,5 +1,9 @@
 # Test Backend
 
+## Technologies used
+
+`Laravel`, `PHP`.
+
 ## Required installations
 ```
 -composer v2.0.12
